@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+/*
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+/* Global */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #22262A;
+}
+a:link,
+a:visited {
+    color:  #ED462F;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+a:hover,
+a:active {
+    color: white;
+    background-color: #ED462F;
+    box-shadow: 0 1rem 2rem rgba(black, .4);
+    transform: rotate(5deg) scale(1.2);
+    padding: 2px;
+}
+
+/* Página de procura de personagem */
+.jumbotron{
+    background-color: #151515;
+}
+.header-main-title {
+    text-align: center;
+}
+.character-search-box, .search-character-button {
+    border-radius: 10px;
+}
+.search-character-button{
+    background-color: #ED462F;
+}
+#characterMainTitle, #comicMainTitle {
+    color: #FFFFFF;
+}
+.card {
+    border:none;
+    border-radius: 2px;
+}

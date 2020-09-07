@@ -26,7 +26,7 @@
                     <input required type="text" name="name" id="name" class="form-control character-search-box"
                         placeholder="(Thor, Gamora, Viúva-Negra, etc...)">
                 </div>
-                <input type="submit" value="Search!" class="btn btn-danger mb-2 search-character-button" style="float: right;">
+                <input type="submit" value="Pesquisar" class="btn btn-danger mb-2 search-character-button" style="float: right;">
 
             </form>
         </div>

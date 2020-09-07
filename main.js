@@ -25,7 +25,7 @@ function connection() {
     const params = "name=" + name;
 
 
-    xhr.open("GET", "./connections/name-search.php?" + params, true);
+    xhr.open("GET", "/Marvel/connections/name-search.php?" + params, true);
     xhr.onloadstart = function() {
         document.getElementById("characterSpinnerSection").innerHTML =
         '<strong id="spinnerText" class="text-primary">Procurando personagem...</strong>' +
@@ -60,12 +60,11 @@ function connection() {
               const characterAttributes = results ["data"].results[0],
                 characterID = results ["data"].results[0].id;
               
-    
               let output = "";
 
               output +=
                 '<h2 id="characterMainTitle">' +
-                "Character" +
+                "Personagem" +
                 "</h2>" +
                 '<div class="card flex-md-row mb-4 box-shadow h-md-250" id="characterCard">' +
                 '<div id="characterImage">' +
@@ -113,11 +112,11 @@ function connection() {
             }
 
             } else {
-            document.getElementById("characterSection").innerHTML = '<h2 id="characterMainTitle">Request not received</h2>';
+            document.getElementById("characterSection").innerHTML = '<h2 id="characterMainTitle">Requisição não foi recebida.</h2>';
             }
         }
     xhr.onloadend = function() {
         document.getElementById("characterSpinnerSection").innerHTML = "";
     }
-    xhr.send()
+    xhr.send();
 }

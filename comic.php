@@ -18,7 +18,7 @@
 
 <body onload="singleComic()" class="single-comic_body">
     <div class="jumbotron">
-        <a href="/index.php">Home</a>
+        <a href="/Marvel/index.php">Home</a>
         <div class="d-flex alaing-items-center container" id="comicsSpinnerSection"></div>
         <div class="container single-comic__container" id="singleComicContainerDiv">
 

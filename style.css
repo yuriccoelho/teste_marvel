@@ -9,9 +9,9 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #22262A;
 }
-a:link,
+a:link, 
 a:visited {
-    color:  #ED462F;
+    color: #ED462F;
     text-decoration: none;
     display: inline-block;
     transition: all 0.2s;
@@ -27,16 +27,17 @@ a:active {
 }
 
 /* Página de procura de personagem */
-.jumbotron{
+.jumbotron {
     background-color: #151515;
 }
 .header-main-title {
+    color: white;
     text-align: center;
 }
 .character-search-box, .search-character-button {
-    border-radius: 10px;
+    border-radius: 0;
 }
-.search-character-button{
+.search-character-button {
     background-color: #ED462F;
 }
 #characterMainTitle, #comicMainTitle {
